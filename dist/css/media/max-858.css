@@ -1,0 +1,39 @@
+@media screen and (max-width: 858px) {
+  /* header {
+    background-color: #15222b;
+  } */
+  label i.fas {
+    display: block;
+  }
+  header ul {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #121d24;
+    margin-left: 0;
+    top: 80px;
+    left: -100%;
+    transition: all 0.5s ease-in-out;
+  }
+  header ul li {
+    display: block;
+    text-align: center;
+    line-height: 80px;
+  }
+  #checkbox:checked ~ ul {
+    left: 0;
+  }
+  /* top-banner */
+  .top-banner-content {
+    top: 12rem;
+    left: 0;
+    padding: 0 20px;
+    /* transform: translate(-12rem,-12rem); */
+  }
+  .top-banner-content h1 {
+    letter-spacing: 3px;
+    font-size: 3rem;
+    padding: 1rem;
+    color: #fff;
+  }
+}

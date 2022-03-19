@@ -1,0 +1,96 @@
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  header nav label {
+    font-size: 2rem;
+    margin-left: 10px;
+  }
+  header ul li a {
+    font-size: 0.9rem;
+  }
+  label i.fas {
+    display: block !important;
+  }
+  header ul {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #121d24;
+    margin-left: 0;
+    top: 80px;
+    left: -100%;
+    transition: all 0.5s ease-in-out;
+  }
+  header ul li {
+    display: block;
+    text-align: center;
+    line-height: 80px;
+  }
+  #checkbox:checked ~ ul {
+    left: 0;
+  }
+  /* top-banner */
+  .top-banner-content {
+    margin-top: 9.5rem;
+  }
+  .top-banner-content h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 20px;
+  }
+  .top-banner-content p {
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+  }
+  /*about-us*/
+  #about {
+    height: auto;
+  }
+  .about-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "box1"
+      "box2"
+      "box3";
+  }
+  /*services section*/
+  .services-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "box1"
+      "box2"
+      "box3"
+      "box4"
+      "box5"
+      "box6";
+  }
+  /*team section*/
+  .team-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "team1"
+      "team2"
+      "team3";
+  }
+  .team-1 {
+    background: url(../../images/pedro-penduko.jpg) no-repeat top center/cover !important;
+    height: 400px;
+  }
+  .team-2 {
+    background: url(../../images/annie-tab.jpg) no-repeat top center/cover !important;
+    height: 400px;
+  }
+  .team-3 {
+    background: url(../../images/juan-tab.jpg) no-repeat top center/cover !important;
+    height: 400px;
+  }
+  /*contact us*/
+  .contact-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "contact-info"
+      "contact-form";
+  }
+  /*footer*/
+  .footer-top {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,8 @@
+@media screen and (max-width: 952px) {
+  header nav label {
+    font-size: 1.5rem;
+  }
+  header ul li a {
+    font-size: 0.9rem;
+  }
+}
